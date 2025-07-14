@@ -164,8 +164,8 @@ def main():
 
     if len(sys.argv) < 2:
         print("Usage:\n")
-        print("\t\tleetcode [language] <url to problem>")
-        print("\t\tleetcode test <problem directory>")
+        print("\t\tleetcode [language-to-use] [url-to-problem]")
+        print("\t\tleetcode test [problem-directory]")
         sys.exit(1)
 
     if sys.argv[1] == 'test':
